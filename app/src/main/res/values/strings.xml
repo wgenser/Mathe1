@@ -6,4 +6,6 @@
     <string name="Mal">*</string>
     <string name="Durch">:</string>
     <string name="Neu">Neu</string>
+    <string name="Zahl1" />
+    <string name="Zahl2" />
 </resources>
