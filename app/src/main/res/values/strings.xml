@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Mathe1</string>
+    <string name="NeueAufgabe">Klicke auf NEU</string>
+    <string name="Plus">+</string>
+    <string name="Minus">-</string>
+    <string name="Mal">*</string>
+    <string name="Durch">:</string>
+    <string name="Neu">Neu</string>
+</resources>
