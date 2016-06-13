@@ -57,6 +57,29 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        SubButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                int Ergebnis = Zahl1 - Zahl2;
+                Anzeige1.setText(String.valueOf(Ergebnis));
+            }
+        });
+
+        MulButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                int Ergebnis = Zahl1 * Zahl2;
+                Anzeige1.setText(String.valueOf(Ergebnis));
+            }
+        });
+
+        DivButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                int Ergebnis = Zahl1 / Zahl2;
+                Anzeige1.setText(String.valueOf(Ergebnis));
+            }
+        });
     }
 
 }
