@@ -9,4 +9,5 @@
     <string name="Zahl1" />
     <string name="Zahl2" />
     <string name="Rechenart">Rechenart?</string>
+    <string name="Nicht_Gestartet">Zuerst mal Neu drücken!</string>
 </resources>

@@ -15,6 +15,8 @@ import java.util.Random;
 public class MainActivity extends AppCompatActivity {
 
     private int Zahl1, Zahl2; // ist privat, aber gilt innerhalb der class
+    // private boolean Gestartet = false;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -35,6 +37,7 @@ public class MainActivity extends AppCompatActivity {
         Button MulButton = (Button) findViewById(R.id.button3);
         Button DivButton = (Button) findViewById(R.id.button4);
         Button NeuButton = (Button) findViewById(R.id.button5); // Neue Zufallszahlen erzeugen
+        // Gestartet = false;
 
         // Wenn Button gedrückt, dann zwei neue zuf.zahlen
         NeuButton.setOnClickListener(new View.OnClickListener() {
@@ -46,14 +49,20 @@ public class MainActivity extends AppCompatActivity {
                 Anzeige1.setText(R.string.Rechenart); // Ausgabe Rechenart?
                 Anzeige2.setText(String.valueOf(Zahl1));
                 Anzeige3.setText(String.valueOf(Zahl2));
+                // Gestartet = true;
             }
         });
 
         AddButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                int Ergebnis = Zahl1 + Zahl2;
-                Anzeige1.setText(String.valueOf(Ergebnis));
+                //if (Gestartet = true ) {
+                    int Ergebnis = Zahl1 + Zahl2;
+                    Anzeige1.setText(String.valueOf(Ergebnis));
+                //}
+               // else {
+                    Anzeige1.setText(R.string.Nicht_Gestartet);
+               //  }
             }
         });
 
