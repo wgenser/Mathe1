@@ -82,7 +82,10 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_below="@+id/button5"
-        android:gravity="center" />
+        android:gravity="center"
+        android:textColor="#f61010"
+        android:textStyle="bold"
+        android:textSize="25dp" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -94,5 +97,8 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:layout_alignTop="@+id/textView2"
-        android:gravity="center" />
+        android:gravity="center"
+        android:textColor="#f61010"
+        android:textStyle="bold"
+        android:textSize="25dp" />
 </RelativeLayout>

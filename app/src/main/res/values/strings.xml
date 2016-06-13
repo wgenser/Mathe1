@@ -8,4 +8,5 @@
     <string name="Neu">Neu</string>
     <string name="Zahl1" />
     <string name="Zahl2" />
+    <string name="Rechenart">Rechenart?</string>
 </resources>
